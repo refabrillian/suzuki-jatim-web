@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUZUKI INDO MOBIL JATIM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <div class="bg-slate-900 text-white py-2 text-xs md:text-sm">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <span><i class="fas fa-map-marker-alt text-red-500 mr-2"></i>INI ALAMAT</span>
+            <span class="hidden md:inline"><i class="fas fa-clock text-red-500 mr-2"></i>INI JAM BUKA</span>
+        </div>
+    </div>
+
+    <nav class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="font-black text-2xl tracking-tighter">
+                <span class="text-red-600">SUZUKI INDO MOBIL</span> JATIM
+            </div>
+            
+            <div class="hidden md:flex space-x-8 font-semibold uppercase text-sm tracking-wide">
+                <a href="#" class="hover:text-red-600 transition">Beranda</a>
+                <a href="#produk" class="hover:text-red-600 transition">Unit Mobil</a>
+                <a href="#harga" class="hover:text-red-600 transition">Pricelist</a>
+            </div>
+
+            <button class="md:hidden text-2xl"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <section class="relative h-[500px] md:h-[700px] overflow-hidden">
+    <div class="swiper mySwiper h-full w-full">
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide relative">
+                <img src="image//FRONX-1,FRONX-2,FRONX-3/FRONX-1.webp" class="absolute inset-0 w-full h-full object-cover" alt="Banner 1">
+                <div class="absolute inset-0 bg-black/40"></div>
+                <div class="container mx-auto px-4 relative z-10 h-full flex flex-col justify-center text-white">
+                    <h2 class="bg-red-600 inline-block px-4 py-1 font-bold text-sm mb-4 self-start">PROMO TERBAIK</h2>
+                    <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">Wujudkan Mobil <br> Impian Anda Sekarang</h1>
+                    <p class="text-lg md:text-xl max-w-2xl mb-10 text-gray-200">Dapatkan penawaran harga Suzuki terbaik untuk wilayah Jawa Timur.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide relative">
+                <img src="image/xl7/revisibannerxl7kuro2_1758194269306.webp" class="absolute inset-0 w-full h-full object-cover" alt="Banner 2">
+                <div class="absolute inset-0 bg-black/20"></div>
+                <div class="container mx-auto px-4 relative z-10 h-full flex flex-col justify-center text-white">
+                    <h2 class="bg-red-600 inline-block px-4 py-1 font-bold text-sm mb-4 self-start">READY STOCK</h2>
+                    <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">Unit Suzuki XL7 <br> Hybrid Ready!</h1>
+                    <p class="text-lg md:text-xl max-w-2xl mb-10 text-gray-200">Proses cepat, data dibantu sampai kirim unit ke rumah.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+    <section class="py-12 bg-white border-b">
+        <div class="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="text-center">
+                <i class="fas fa-tags text-3xl text-red-600 mb-3"></i>
+                <h4 class="font-bold">Harga Termurah</h4>
+            </div>
+            <div class="text-center">
+                <i class="fas fa-file-invoice-dollar text-3xl text-red-600 mb-3"></i>
+                <h4 class="font-bold">DP Paling Rendah</h4>
+            </div>
+            <div class="text-center">
+                <i class="fas fa-shuttle-van text-3xl text-red-600 mb-3"></i>
+                <h4 class="font-bold">Ready Stock</h4>
+            </div>
+            <div class="text-center">
+                <i class="fas fa-handshake text-3xl text-red-600 mb-3"></i>
+                <h4 class="font-bold">Data Dibantu 100%</h4>
+            </div>
+        </div>
+    </section>
+
+    <div class="fixed bottom-6 right-6 z-[9999]">
+        <div class="bg-white p-2 rounded-lg shadow-xl mb-3 text-[10px] font-bold text-center border animate-bounce">
+            Tanya Harga? <br> Chat Sini!
+        </div>
+        <a href="https://wa.me/628123456789" class="bg-green-500 w-16 h-16 rounded-full flex items-center justify-center text-white shadow-2xl hover:scale-110 transition active:scale-95">
+            <i class="fab fa-whatsapp text-3xl"></i>
+        </a>
+    </div>
+
+    <section id="produk" class="py-16 container mx-auto px-4">
+    <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800">Pilihan Mobil Suzuki</h2>
+        <div class="w-20 h-1 bg-red-600 mx-auto mt-4"></div>
+    </div>
+
+    <div id="grid-mobil" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+</section>
+
+<section id="harga" class="py-16 bg-slate-100">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800">Daftar Harga Terbaru</h2>
+            <p class="text-gray-500 mt-2">Update Harga Wilayah Jawa Timur & Sekitarnya</p>
+            <div class="w-20 h-1 bg-red-600 mx-auto mt-4"></div>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white p-4 rounded-2xl shadow-xl border border-gray-200">
+                <img src="image/brosur-pricelist-suzuki.jpeg" alt="Daftar Harga Suzuki Jatim" class="w-full h-auto rounded-lg shadow-sm">
+                
+                <div class="mt-8 flex flex-col md:flex-row justify-center gap-4">
+                    <a href="image/brosur-pricelist-suzuki.jpeg" download class="bg-slate-900 text-white px-8 py-3 rounded-lg font-bold flex items-center justify-center hover:bg-slate-800 transition">
+                        <i class="fas fa-download mr-2"></i> Download Pricelist (PDF/JPG)
+                    </a>
+                    <a href="https://wa.me/628123456789" class="bg-green-500 text-white px-8 py-3 rounded-lg font-bold flex items-center justify-center hover:bg-green-600 transition">
+                        <i class="fab fa-whatsapp mr-2"></i> Hubungi
+                    </a>
+                </div>
+            </div>
+            
+            <p class="text-center text-xs text-gray-400 mt-6">
+                *Harga sewaktu-waktu dapat berubah tanpa pemberitahuan sebelumnya.
+            </p>
+        </div>
+    </div>
+</section>
+
+<script src="data.js"></script>
+<script>
+    const container = document.getElementById('grid-mobil');
+
+    daftarMobil.forEach(mobil => {
+    container.innerHTML += `
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition border border-gray-100">
+            <div class="relative">
+                <img src="${mobil.gambar}" alt="${mobil.nama}" class="w-full h-48 object-cover">
+                <span class="absolute top-4 left-4 bg-red-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">${mobil.tag}</span>
+            </div>
+            <div class="p-6">
+                <h3 class="font-bold text-xl mb-1">${mobil.nama}</h3>
+                <p class="text-gray-400 text-xs mb-4 uppercase tracking-tighter font-semibold">Estimasi Harga Jatim</p>
+                <p class="text-red-600 font-black text-2xl mb-6">Rp ${mobil.harga}</p>
+                
+                <div class="flex gap-2">
+                    <a href="${mobil.linkDetail}" class="flex-1 bg-slate-900 text-white py-3 rounded-lg font-bold text-sm text-center hover:bg-slate-800 transition flex items-center justify-center">
+                        <i class="fas fa-info-circle mr-2"></i> Detail Mobil
+                    </a>
+                </div>
+            </div>
+        </div>
+    `;
+});
+</script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+
+</body>
+</html>
