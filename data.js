@@ -26,7 +26,7 @@ const daftarMobil = [
     {
         nama: "XL7",
         harga: "279.000.000",
-        gambar: "image/xl7/main.jpg",
+        gambar: "image/xl7/xl7-new.jpeg",
         tag: "Exclusive",
         linkWA: "https://wa.me/6285716547760?text=Halo, saya tertarik dengan XL7",
         linkDetail: "detail-xl7.html"
@@ -59,3 +59,4 @@ const daftarMobil = [
         linkDetail: "detail-carry.html"
     },
 ];
+
